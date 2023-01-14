@@ -1,0 +1,36 @@
+/*
+  Localizable.strings
+  CardsNew
+
+  Created by Lina on 19/06/1444 AH.
+  
+*/
+
+
+//"helo1234" = "Hello world";
+"Start"="Start";
+"Vitamin"="Vitamin";
+"Vitamin D helps regulate the amount of calcium and phosphate in the body" = "Vitamin D                                      helps regulate the amount of calcium and phosphate in the body";
+"Normal" = "Normal";
+"Above"="Above";
+"Under"="Under";
+"Under Normal Range"="Under Normal Range";
+"You Should"="You Should";
+"You Shouldn't"="You Shouldn't";
+"Through your skin your body forms vitamin D naturally after exposure to sunlight "="Through your skin your body forms vitamin D naturally after exposure to sunlight ";
+"food rich in vitamin D sources"="food rich in vitamin D sources";
+"pills supplements"="pills supplements";
+"Reducing the consumption of foods rich in vitamin D sources , such as meat"="Reducing the consumption of foods rich in vitamin D sources , such as meat";
+"smoking"="smoking";
+"overweight than normal"="overweight than normal";
+" lack of exposure to the sun " = " lack of exposure to the sun ";
+"Above Normal Range"="Above Normal Range";
+"consume plent of water"="consume plent of water";
+"inform you Doctor right away"="inform you Doctor right away";
+"take vitamin D supplement"="take vitamin D supplement";
+"consistently eat foods rich in calcium"="consistently eat foods rich in calcium";
+"Congratulations, you are in the Normal Range!"="Congratulations, you are in the Normal Range!";
+"Keep up the great work"="Keep up the great work";
+"Hemoglobin"="Hemoglobin";
+"Triglyceride"="Triglyceride";
+"Cholesterol"="Cholesterol";

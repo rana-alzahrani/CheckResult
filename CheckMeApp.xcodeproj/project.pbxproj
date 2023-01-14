@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3EB017C42972FAAE00CC9038 /* CheckMeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017C32972FAAE00CC9038 /* CheckMeAppApp.swift */; };
-		3EB017C62972FAAE00CC9038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017C52972FAAE00CC9038 /* ContentView.swift */; };
 		3EB017C82972FAAE00CC9038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017C72972FAAE00CC9038 /* Assets.xcassets */; };
 		3EB017CB2972FAAE00CC9038 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017CA2972FAAE00CC9038 /* Preview Assets.xcassets */; };
 		3EB017D52972FAAF00CC9038 /* CheckMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017D42972FAAF00CC9038 /* CheckMeAppTests.swift */; };
 		3EB017DF2972FAAF00CC9038 /* CheckMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017DE2972FAAF00CC9038 /* CheckMeAppUITests.swift */; };
 		3EB017E12972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017E02972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift */; };
+		3EB017F02972FB3700CC9038 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017EF2972FB3700CC9038 /* SwiftUIView.swift */; };
+		3EB017F22972FB7600CC9038 /* chatTickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017F12972FB7500CC9038 /* chatTickets.swift */; };
+		3EB017F42972FB9700CC9038 /* chatTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017F32972FB9700CC9038 /* chatTicket.swift */; };
+		3EB017F62972FBC300CC9038 /* chatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017F52972FBC300CC9038 /* chatModel.swift */; };
+		3EB017F82972FBFF00CC9038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017F72972FBFF00CC9038 /* LaunchScreen.storyboard */; };
+		3EB017FA2972FE9700CC9038 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017F92972FE9700CC9038 /* Localizable.strings */; };
+		3EB017FC2972FECF00CC9038 /* Localizable.ar.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017FB2972FECF00CC9038 /* Localizable.ar.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		3EB017C02972FAAE00CC9038 /* CheckMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB017C32972FAAE00CC9038 /* CheckMeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppApp.swift; sourceTree = "<group>"; };
-		3EB017C52972FAAE00CC9038 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3EB017C72972FAAE00CC9038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB017CA2972FAAE00CC9038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EB017D02972FAAF00CC9038 /* CheckMeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		3EB017DA2972FAAF00CC9038 /* CheckMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB017DE2972FAAF00CC9038 /* CheckMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppUITests.swift; sourceTree = "<group>"; };
 		3EB017E02972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EB017EF2972FB3700CC9038 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3EB017F12972FB7500CC9038 /* chatTickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTickets.swift; sourceTree = "<group>"; };
+		3EB017F32972FB9700CC9038 /* chatTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatTicket.swift; sourceTree = "<group>"; };
+		3EB017F52972FBC300CC9038 /* chatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatModel.swift; sourceTree = "<group>"; };
+		3EB017F72972FBFF00CC9038 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EB017F92972FE9700CC9038 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3EB017FB2972FECF00CC9038 /* Localizable.ar.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.ar.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +106,15 @@
 		3EB017C22972FAAE00CC9038 /* CheckMeApp */ = {
 			isa = PBXGroup;
 			children = (
+				3EB017F92972FE9700CC9038 /* Localizable.strings */,
+				3EB017FB2972FECF00CC9038 /* Localizable.ar.strings */,
 				3EB017C32972FAAE00CC9038 /* CheckMeAppApp.swift */,
-				3EB017C52972FAAE00CC9038 /* ContentView.swift */,
+				3EB017F12972FB7500CC9038 /* chatTickets.swift */,
+				3EB017F32972FB9700CC9038 /* chatTicket.swift */,
+				3EB017F52972FBC300CC9038 /* chatModel.swift */,
+				3EB017EF2972FB3700CC9038 /* SwiftUIView.swift */,
 				3EB017C72972FAAE00CC9038 /* Assets.xcassets */,
+				3EB017F72972FBFF00CC9038 /* LaunchScreen.storyboard */,
 				3EB017C92972FAAE00CC9038 /* Preview Content */,
 			);
 			path = CheckMeApp;
@@ -213,6 +231,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 3EB017B72972FAAE00CC9038;
 			productRefGroup = 3EB017C12972FAAE00CC9038 /* Products */;
@@ -231,6 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB017F82972FBFF00CC9038 /* LaunchScreen.storyboard in Resources */,
+				3EB017FA2972FE9700CC9038 /* Localizable.strings in Resources */,
+				3EB017FC2972FECF00CC9038 /* Localizable.ar.strings in Resources */,
 				3EB017CB2972FAAE00CC9038 /* Preview Assets.xcassets in Resources */,
 				3EB017C82972FAAE00CC9038 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +279,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB017C62972FAAE00CC9038 /* ContentView.swift in Sources */,
+				3EB017F02972FB3700CC9038 /* SwiftUIView.swift in Sources */,
+				3EB017F22972FB7600CC9038 /* chatTickets.swift in Sources */,
 				3EB017C42972FAAE00CC9038 /* CheckMeAppApp.swift in Sources */,
+				3EB017F42972FB9700CC9038 /* chatTicket.swift in Sources */,
+				3EB017F62972FBC300CC9038 /* chatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +445,11 @@
 				DEVELOPMENT_TEAM = 6PUX78XRXV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckMe;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +476,11 @@
 				DEVELOPMENT_TEAM = 6PUX78XRXV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CheckMe;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
