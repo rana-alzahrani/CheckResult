@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EB017C42972FAAE00CC9038 /* CheckMeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017C32972FAAE00CC9038 /* CheckMeAppApp.swift */; };
+		3EB017C62972FAAE00CC9038 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017C52972FAAE00CC9038 /* ContentView.swift */; };
+		3EB017C82972FAAE00CC9038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017C72972FAAE00CC9038 /* Assets.xcassets */; };
+		3EB017CB2972FAAE00CC9038 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB017CA2972FAAE00CC9038 /* Preview Assets.xcassets */; };
+		3EB017D52972FAAF00CC9038 /* CheckMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017D42972FAAF00CC9038 /* CheckMeAppTests.swift */; };
+		3EB017DF2972FAAF00CC9038 /* CheckMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017DE2972FAAF00CC9038 /* CheckMeAppUITests.swift */; };
+		3EB017E12972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB017E02972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EB017D12972FAAF00CC9038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB017B82972FAAE00CC9038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB017BF2972FAAE00CC9038;
+			remoteInfo = CheckMeApp;
+		};
+		3EB017DB2972FAAF00CC9038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EB017B82972FAAE00CC9038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EB017BF2972FAAE00CC9038;
+			remoteInfo = CheckMeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EB017C02972FAAE00CC9038 /* CheckMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB017C32972FAAE00CC9038 /* CheckMeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppApp.swift; sourceTree = "<group>"; };
+		3EB017C52972FAAE00CC9038 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3EB017C72972FAAE00CC9038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EB017CA2972FAAE00CC9038 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EB017D02972FAAF00CC9038 /* CheckMeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB017D42972FAAF00CC9038 /* CheckMeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppTests.swift; sourceTree = "<group>"; };
+		3EB017DA2972FAAF00CC9038 /* CheckMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB017DE2972FAAF00CC9038 /* CheckMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppUITests.swift; sourceTree = "<group>"; };
+		3EB017E02972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EB017BD2972FAAE00CC9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB017CD2972FAAF00CC9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB017D72972FAAF00CC9038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB017B72972FAAE00CC9038 = {
+			isa = PBXGroup;
+			children = (
+				3EB017C22972FAAE00CC9038 /* CheckMeApp */,
+				3EB017D32972FAAF00CC9038 /* CheckMeAppTests */,
+				3EB017DD2972FAAF00CC9038 /* CheckMeAppUITests */,
+				3EB017C12972FAAE00CC9038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EB017C12972FAAE00CC9038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EB017C02972FAAE00CC9038 /* CheckMeApp.app */,
+				3EB017D02972FAAF00CC9038 /* CheckMeAppTests.xctest */,
+				3EB017DA2972FAAF00CC9038 /* CheckMeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EB017C22972FAAE00CC9038 /* CheckMeApp */ = {
+			isa = PBXGroup;
+			children = (
+				3EB017C32972FAAE00CC9038 /* CheckMeAppApp.swift */,
+				3EB017C52972FAAE00CC9038 /* ContentView.swift */,
+				3EB017C72972FAAE00CC9038 /* Assets.xcassets */,
+				3EB017C92972FAAE00CC9038 /* Preview Content */,
+			);
+			path = CheckMeApp;
+			sourceTree = "<group>";
+		};
+		3EB017C92972FAAE00CC9038 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3EB017CA2972FAAE00CC9038 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EB017D32972FAAF00CC9038 /* CheckMeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB017D42972FAAF00CC9038 /* CheckMeAppTests.swift */,
+			);
+			path = CheckMeAppTests;
+			sourceTree = "<group>";
+		};
+		3EB017DD2972FAAF00CC9038 /* CheckMeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB017DE2972FAAF00CC9038 /* CheckMeAppUITests.swift */,
+				3EB017E02972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift */,
+			);
+			path = CheckMeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EB017BF2972FAAE00CC9038 /* CheckMeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB017E42972FAAF00CC9038 /* Build configuration list for PBXNativeTarget "CheckMeApp" */;
+			buildPhases = (
+				3EB017BC2972FAAE00CC9038 /* Sources */,
+				3EB017BD2972FAAE00CC9038 /* Frameworks */,
+				3EB017BE2972FAAE00CC9038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMeApp;
+			productName = CheckMeApp;
+			productReference = 3EB017C02972FAAE00CC9038 /* CheckMeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EB017CF2972FAAF00CC9038 /* CheckMeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB017E72972FAAF00CC9038 /* Build configuration list for PBXNativeTarget "CheckMeAppTests" */;
+			buildPhases = (
+				3EB017CC2972FAAF00CC9038 /* Sources */,
+				3EB017CD2972FAAF00CC9038 /* Frameworks */,
+				3EB017CE2972FAAF00CC9038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB017D22972FAAF00CC9038 /* PBXTargetDependency */,
+			);
+			name = CheckMeAppTests;
+			productName = CheckMeAppTests;
+			productReference = 3EB017D02972FAAF00CC9038 /* CheckMeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EB017D92972FAAF00CC9038 /* CheckMeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB017EA2972FAAF00CC9038 /* Build configuration list for PBXNativeTarget "CheckMeAppUITests" */;
+			buildPhases = (
+				3EB017D62972FAAF00CC9038 /* Sources */,
+				3EB017D72972FAAF00CC9038 /* Frameworks */,
+				3EB017D82972FAAF00CC9038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB017DC2972FAAF00CC9038 /* PBXTargetDependency */,
+			);
+			name = CheckMeAppUITests;
+			productName = CheckMeAppUITests;
+			productReference = 3EB017DA2972FAAF00CC9038 /* CheckMeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EB017B82972FAAE00CC9038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3EB017BF2972FAAE00CC9038 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3EB017CF2972FAAF00CC9038 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3EB017BF2972FAAE00CC9038;
+					};
+					3EB017D92972FAAF00CC9038 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3EB017BF2972FAAE00CC9038;
+					};
+				};
+			};
+			buildConfigurationList = 3EB017BB2972FAAE00CC9038 /* Build configuration list for PBXProject "CheckMeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EB017B72972FAAE00CC9038;
+			productRefGroup = 3EB017C12972FAAE00CC9038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EB017BF2972FAAE00CC9038 /* CheckMeApp */,
+				3EB017CF2972FAAF00CC9038 /* CheckMeAppTests */,
+				3EB017D92972FAAF00CC9038 /* CheckMeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EB017BE2972FAAE00CC9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB017CB2972FAAE00CC9038 /* Preview Assets.xcassets in Resources */,
+				3EB017C82972FAAE00CC9038 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB017CE2972FAAF00CC9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB017D82972FAAF00CC9038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EB017BC2972FAAE00CC9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB017C62972FAAE00CC9038 /* ContentView.swift in Sources */,
+				3EB017C42972FAAE00CC9038 /* CheckMeAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB017CC2972FAAF00CC9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB017D52972FAAF00CC9038 /* CheckMeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EB017D62972FAAF00CC9038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EB017DF2972FAAF00CC9038 /* CheckMeAppUITests.swift in Sources */,
+				3EB017E12972FAAF00CC9038 /* CheckMeAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB017D22972FAAF00CC9038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB017BF2972FAAE00CC9038 /* CheckMeApp */;
+			targetProxy = 3EB017D12972FAAF00CC9038 /* PBXContainerItemProxy */;
+		};
+		3EB017DC2972FAAF00CC9038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EB017BF2972FAAE00CC9038 /* CheckMeApp */;
+			targetProxy = 3EB017DB2972FAAF00CC9038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3EB017E22972FAAF00CC9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EB017E32972FAAF00CC9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EB017E52972FAAF00CC9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckMeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PUX78XRXV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lina.CheckMeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EB017E62972FAAF00CC9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckMeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6PUX78XRXV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lina.CheckMeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EB017E82972FAAF00CC9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PUX78XRXV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lina.CheckMeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckMeApp";
+			};
+			name = Debug;
+		};
+		3EB017E92972FAAF00CC9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PUX78XRXV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lina.CheckMeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CheckMeApp";
+			};
+			name = Release;
+		};
+		3EB017EB2972FAAF00CC9038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PUX78XRXV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lina.CheckMeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMeApp;
+			};
+			name = Debug;
+		};
+		3EB017EC2972FAAF00CC9038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PUX78XRXV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lina.CheckMeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CheckMeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EB017BB2972FAAE00CC9038 /* Build configuration list for PBXProject "CheckMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB017E22972FAAF00CC9038 /* Debug */,
+				3EB017E32972FAAF00CC9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB017E42972FAAF00CC9038 /* Build configuration list for PBXNativeTarget "CheckMeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB017E52972FAAF00CC9038 /* Debug */,
+				3EB017E62972FAAF00CC9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB017E72972FAAF00CC9038 /* Build configuration list for PBXNativeTarget "CheckMeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB017E82972FAAF00CC9038 /* Debug */,
+				3EB017E92972FAAF00CC9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB017EA2972FAAF00CC9038 /* Build configuration list for PBXNativeTarget "CheckMeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EB017EB2972FAAF00CC9038 /* Debug */,
+				3EB017EC2972FAAF00CC9038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EB017B82972FAAE00CC9038 /* Project object */;
+}
