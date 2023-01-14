@@ -1,4 +1,5 @@
 # RepositoryCheckResult
+App Demo in Arabic & English 🦾
 
 [Demo in English.mp4.zip](https://github.com/LinaAlmusfir/RepositoryCheckResult/files/10418102/Demo.in.English.mp4.zip)
 
