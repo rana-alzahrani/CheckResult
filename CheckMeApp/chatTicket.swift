@@ -1,4 +1,6 @@
+
 import SwiftUI
+
 struct chatTicket: View {
     @Environment(\.colorScheme) var colorScheme3
     let chat: chatModel
@@ -18,7 +20,7 @@ struct chatTicket: View {
             ZStack {
                 VStack {
                     Button {
-                          showingAlert = true
+                        showingAlert = true
                     } label: {
                         VStack {
                             Text("Vitamin")
@@ -49,31 +51,24 @@ struct chatTicket: View {
                             } label: {
                                 Text("115 - 200")
                             }
-                       
-
                         }
-                        
                     })
-                    }
-                }.padding(.top,40)
+                }
+            }.padding(.top,40)
                 .frame(width: 250,height: 380)
                 .overlay {
-                RoundedRectangle(cornerRadius: 30)
-                    .stroke(LinearGradient(colors: gradient, startPoint: .topLeading, endPoint: .bottomTrailing), style: StrokeStyle(lineWidth: 2))
-                  
+                    RoundedRectangle(cornerRadius: 30)
+                        .stroke(LinearGradient(colors: gradient, startPoint: .topLeading, endPoint: .bottomTrailing), style: StrokeStyle(lineWidth: 2))
                 }
                 .cornerRadius(30)
-            
         }.background(Color(chat.color))
             .cornerRadius(30)
             .frame(height: 460)
             .font(.footnote)
             .shadow(radius: 10)
             .sheet(isPresented: $showingCredits_3) {
-                
-                
                 VStack {
-              Spacer()
+                    Spacer()
                     Text("Under Normal Range")
                         .multilineTextAlignment(.center)
                         .font(.system(size: 30 , weight: .bold , design: .rounded))
@@ -87,14 +82,14 @@ struct chatTicket: View {
                             .foregroundColor(.init("Color2"))
                             .position(x:200 , y:90)
                         Text("You Should")
-                                                  .font(.system(size: 30 , weight: .bold , design: .rounded))
-                                                  .foregroundColor(.white)
-                                                  .position(x:196 , y:11)
+                            .font(.system(size: 30 , weight: .bold , design: .rounded))
+                            .foregroundColor(.white)
+                            .position(x:196 , y:11)
                         Text("1.Expose your body skin to        sunlight to get Vitamin D        naturally.")
-                                                    .font(.system(size: 25 ,  design: .rounded))
-                                                    .foregroundColor(.white)
-                                                    .position(x:220, y:90)
-    
+                            .font(.system(size: 25 ,  design: .rounded))
+                            .foregroundColor(.white)
+                            .position(x:220, y:90)
+                        
                     }
                     ZStack {
                         Image(systemName: "rectangle.fill")
@@ -111,24 +106,18 @@ struct chatTicket: View {
                             .font(.system(size: 25 ,  design: .rounded))
                             .foregroundColor(.white)
                             .position(x:260, y:90)
-                     
                     }
                     Spacer()
                 }
-
-                    .presentationDetents([.medium, .large])
+                .presentationDetents([.medium, .large])
             }
             .sheet(isPresented: $showingCredits_2) {
-                
-                
                 VStack {
-                    
                     Text("Above Normal Range")
                         .multilineTextAlignment(.center)
                         .font(.system(size: 30 , weight: .bold , design: .rounded))
                         .foregroundColor(.init("Color3"))
                         .position(x:200 , y:155)
-                    //
                     ZStack {
                         Image(systemName: "rectangle.fill")
                             .resizable()
@@ -141,7 +130,6 @@ struct chatTicket: View {
                             .foregroundColor(.white)
                             .position(x:196 , y:11)
                         Text("1.Consume plent of water.        2.Inform your Doctor right             away.")
-
                             .font(.system(size: 25 ,  design: .rounded))
                             .foregroundColor(.white)
                             .position(x:230, y:90)
@@ -158,44 +146,33 @@ struct chatTicket: View {
                             .foregroundColor(.white)
                             .position(x:196 , y:11)
                         Text("1.Take vitamin D                     supplement.                      2.Consistently eat foods              rich in calcium.")
-                  
                             .font(.system(size: 25 ,  design: .rounded))
                             .foregroundColor(.white)
                             .position(x:250, y:94)
                     }
-
-                    
                 }
-                
                 .presentationDetents([.medium, .large])
             }
             .sheet(isPresented: $showingCredits) {
-              VStack {
+                VStack {
                     Spacer()
                     Image("p2")
-
+                    
                         .resizable()
                         .scaledToFit()
                         .frame(width: 400 , height: 350 , alignment: .center)
-                    
                     Text("Congratulations, you are     in the Normal Range!")
                         .multilineTextAlignment(.center)
                         .font(.system(size: 30 , weight: .bold , design: .rounded))
                         .foregroundColor(.init("Color3"))
                     Text("Keep up the great work.")
-                    
                         .multilineTextAlignment(.center)
                         .font(.system(size: 24 , weight: .regular , design: .rounded))
                         .foregroundColor(.init("Color1"))
                     Spacer()
-                    
-                    
-                    
                 }
-
-                    .presentationDetents([.medium, .large])
+                .presentationDetents([.medium, .large])
             }
-           
     }
 }
 struct chatTicket_Previews: PreviewProvider {
@@ -203,10 +180,7 @@ struct chatTicket_Previews: PreviewProvider {
         chatTicket(chat: chatModel(top: "", title: "", color: ""), height: .constant(0))
     }
 }
-
-
 struct BackdrropView: UIViewRepresentable {
-
     func makeUIView(context: Context) -> UIVisualEffectView {
         let view = UIVisualEffectView()
         let blur = UIBlurEffect(style: .extraLight)
@@ -217,17 +191,12 @@ struct BackdrropView: UIViewRepresentable {
         animator.finishAnimation(at: .start)
         return view
     }
-    
     func updateUIView(_ uiView: UIVisualEffectView, context: Context) { }
-    
 }
 struct BackdrropBlurView: View {
-    
     let radius: CGFloat
-    
     @ViewBuilder
     var body: some View {
         BackdrropView().blur(radius: radius)
     }
-    
 }
